@@ -1,0 +1,158 @@
+body {
+  background-image: url(https://media.istockphoto.com/photos/seamless-wood-walnut-coating-picture-id1254877507?b=1&k=6&m=1254877507&s=170667a&w=0&h=7U5fX37nA6UJW2lhqJLqF8psle4l8utQOB7cZi9JM64=);
+  background-repeat: repeat;
+}
+
+.container {
+  width: 100vw;
+  margin: 10px auto;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: bold;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://media.istockphoto.com/photos/black-asphalt-floor-or-road-texture-background-black-small-stone-picture-id1224077982?b=1&k=6&m=1224077982&s=170667a&w=0&h=Hpc5nhZDGg5jgE0pzqpHIITIBFb3Psh9lR2CAcC06OY=);
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  color: #fff;
+  padding-left: 40px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: Arial sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu li {
+  padding-right: 20px;
+}
+
+.main {
+  display: flex;
+  margin: 10px 40px;
+}
+
+.form {
+  width: 40%;
+  padding-top: 20px;
+}
+
+
+#userName, #address, #phone, #email {
+  width: 200px;
+  border-radius: 5px;
+}
+
+#city, #nameOfSuchi {
+  width: 205px;
+  border-radius: 5px;
+}
+
+#rating {
+  border-radius: 5px;
+}
+
+#map {
+  width: 450px;
+  float: right;
+  margin-right: 40px;
+  height: 350px;
+  margin-top: 20px;
+}
+
+#comment {
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+}
+
+fieldset>ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+fieldset {
+  border-radius: 5px;
+  text-align: left;
+  width: 250px;
+}
+
+button {
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  background-color: red;
+}
+
+/* footer {
+  width: 100%;
+} */
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer li {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 750px) {
+header {
+  display: block;
+}
+.main {
+  display: block;
+}
+.form {
+  width: 100%;
+}
+#map {
+  display: block;
+  float: none;
+  width: auto;
+  height: auto;
+  margin-left: 0;
+}
+footer ul {
+  display: block;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    display: block;
+  }
+  .menu ul {
+    display: block;
+  }
+  .main {
+    display: block;
+  }
+  #map {
+    display: block;
+    float: none;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+  }
+}
